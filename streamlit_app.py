@@ -1,4 +1,9 @@
 import streamlit as st
+import pandas as pd
+from datetime import datetime
 
-st.title('👋 Welcome to My Website')
-st.write("I'm building this live in class!")
+# Page Config
+st.set_page_config(
+  page_title ='Green | Portfolio',
+  page_icon='🟢',
+  layout = 'wide'
