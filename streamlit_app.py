@@ -27,6 +27,18 @@ if page == '🏠 Home':
   st.markdown('<p class="main-header">Matthew Green</p>', unsafe_allow_html=True)
   st.markdown('<p class="sub-header">Average Student | Medagar Evers College</p>', unsafe_allow_html=True)
 
+# Three columns for stats 
+co11, co12, col13 = st.columns(3)
+
+with col1:
+  st.metric metric('GPA', '3.5', '📚')
+  with col2: 
+    st.metric('Projects', '5', '💻')
+    with col3:
+      st.metric('skills', '10+', '🚀')
+
+st.write('---')
+
 
 
             
