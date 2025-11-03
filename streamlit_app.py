@@ -21,3 +21,12 @@ st.markdown('''
 st.sidebar.title('📍Navigation')
 page = st.sidebar.radio('Go to',
                         ['🏠 Home', '👔 About', '💼 projects', '⚒️ Skills', '📝 Resume', '📩 Contact' ])
+
+# Home Page
+if page == '🏠 Home'
+st.markdown('<p class="main-header">Matthew Green</p>', unsafe_allow_html=True)
+st.markdown('<p classes="sub-header">Average Student | Medagar Evers College</p>', unsafe_allow_html=True
+
+
+
+            
