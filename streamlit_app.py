@@ -51,16 +51,16 @@ with col1:
             
                 🎯 **Current Focus:** Building interactive web applications with Streamlit
             
-                📚 **Currently Learning:** Internet and Emergin Technologies (CIS 211)
+                📚 **Currently Learning:** Internet and Emerging Technologies (CIS 211)
             
                 🌱 **Fun Fact:** I can solve a Rubik's cube in under 2 minutes!
             ''')
   with col2:
-    # Placeholder for image
+  # Placeholder for image
   st.image('https://raw.githubusercontent.com/avinashjairam/cis211_project1/refs/heads/main/grumpy_cat.jfif', use_column_width=True)
 
-# About Page
-elif page == '👔 About':
+  # About Page
+  elif page == '👔 About':
   st.title('About Me')
 
   # Timeline of my Professional Journey
