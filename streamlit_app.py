@@ -55,7 +55,7 @@ with col1:
             
                 🌱 **Fun Fact:** I can solve a Rubik's cube in under 2 minutes!
             ''')
-  with col2:
+with col2: 
   # Placeholder for image
   st.image('https://raw.githubusercontent.com/avinashjairam/cis211_project1/refs/heads/main/grumpy_cat.jfif', use_column_width=True)
 
@@ -70,7 +70,7 @@ with col1:
     st.write('''
                 - Major: Business Administration 
                 - Relevant Coursework: Internet & Emerging Technologies, Programming, Database Systems, AI
-                - Activities: Track Team, Volleyball Team, Hackathon participant
+                - Activities: None
             ''')
 
   with st.expander('2023 - 2025: NYC Museum School'):
