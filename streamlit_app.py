@@ -28,7 +28,7 @@ if page == '🏠 Home':
   st.markdown('<p class="sub-header">Undergraduate Student | Medagar Evers College</p>', unsafe_allow_html=True)
 
   # Three columns for stats 
-  co11, co12, col13 = st.columns(3)
+  col1, col2, col3 = st.columns(3)
 
   with col1:
     st.metric ('GPA', '3.5', '📚')
