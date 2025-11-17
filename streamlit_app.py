@@ -37,27 +37,26 @@ if page == '🏠 Home':
   with col3:
     st.metric('skills', '10+', '🚀')
 
-st.write('---')
 
-st.write('---')
+  st.write('---')
 
-# Introduction with columns
-col1, col2 = st.columns([2,1])
-with col1:
-     st.subheader('Welcome to my digital space!👋')
-     st.write('''
-                I am a Computer Information Systems student passionate about web development and emerging technologies. Currently learning
-                HTML, CSS, JavaScript, and Python to build innovative solutions.
-            
-                🎯 **Current Focus:** Building interactive web applications with Streamlit
-            
-                📚 **Currently Learning:** Internet and Emerging Technologies (CIS 211)
-            
-                🌱 **Fun Fact:** I can solve a Rubik's cube in under 2 minutes!
-            ''')
-with col2: 
-  # Placeholder for image
-  st.image('https://raw.githubusercontent.com/avinashjairam/cis211_project1/refs/heads/main/grumpy_cat.jfif', use_column_width=True)
+  # Introduction with columns
+  col1, col2 = st.columns([2,1])
+  with col1:
+       st.subheader('Welcome to my digital space!👋')
+       st.write('''
+                  I am a Computer Information Systems student passionate about web development and emerging technologies. Currently learning
+                  HTML, CSS, JavaScript, and Python to build innovative solutions.
+              
+                  🎯 **Current Focus:** Pursing My Business Administration Degree
+              
+                  📚 **Currently Learning:** Internet and Emerging Technologies (CIS 211)
+              
+                  🌱 **Fun Fact:** I Like Summer More Than Winter
+              ''')
+  with col2: 
+    # Placeholder for image
+    st.image('https://raw.githubusercontent.com/avinashjairam/cis211_project1/refs/heads/main/grumpy_cat.jfif', use_column_width=True)
 
   # About Page
 elif page == '👔 About':
@@ -73,11 +72,11 @@ elif page == '👔 About':
                 - Activities: None
             ''')
 
-  with st.expander('2023 - 2025: NYC Museum School'):
+  with st.expander('2022 - 2024: Pathways 2 Gradutation'):
     st.write('''
-                - Graduated with honors
-                - AP Computer Science A (Score: 5)
-                - Founded Coding Club
+                - Graduated with A GED
+                - Math Score 157
+                - Earned 2 awards 
             ''')
 
   st.subheader('Interests & Hobbies 🏀')
