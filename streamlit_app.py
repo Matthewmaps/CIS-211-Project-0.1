@@ -157,7 +157,7 @@ elif page == '📝 Resume':
   st. title('Resume')
 
   # Read PDF from GitHub repository
-  with open('my_resume.pdf', 'rb') as file
+  # with open('my_resume.pdf', 'rb') as file
 
 
     
