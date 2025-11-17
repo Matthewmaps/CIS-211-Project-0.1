@@ -153,11 +153,11 @@ elif page == '🛠 Skills':
     st.info('Writing')
     st.warning('Social Media')
 
-elif page == '📝 Resume'
+elif page == '📝 Resume':
   st. title('Resume')
 
-# Read PDF from GitHub repository
-with open('my_resume.pdf', 'rb') as file
+  # Read PDF from GitHub repository
+  with open('my_resume.pdf', 'rb') as file
 
 
     
