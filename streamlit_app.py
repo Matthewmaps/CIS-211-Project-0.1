@@ -75,11 +75,11 @@ elif page == '👔 About':
   with st.expander('2022 - 2024: Pathways 2 Gradutation'):
     st.write('''
                 - Graduated with A GED
-                - Math Score 157
+                - GED Math Score 157
                 - Earned 2 awards 
             ''')
 
-  st.subheader('Interests & Hobbies 🏀')
+  st.subheader('Interests & Hobbies 🌳')
   interests = ['Web Development', 'AI/Machine Learning', 'Photography', 'Basketball', 'Travel', 'Baseball']
 
   # Display the interests in columns
