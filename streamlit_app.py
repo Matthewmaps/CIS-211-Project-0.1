@@ -20,7 +20,7 @@ st.markdown('''
 # Sidebar
 st.sidebar.title('📍Navigation')
 page = st.sidebar.radio('Go to',
-                        ['🏠 Home', '👔 About', '💼 projects', '⚒️ Skills', '📝 Resume', '📩 Contact' ])
+                        ['🏠 Home', '👔 About', '💼 Projects', '⚒️ Skills', '📝 Resume', '📩 Contact' ])
 
 # Home Page
 if page == '🏠 Home':
